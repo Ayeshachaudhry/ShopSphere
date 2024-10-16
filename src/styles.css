@@ -1,0 +1,261 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Navbar background color */
+    padding: 10px 20px; /* Padding for the navbar */
+    color: white; /* Text color */
+    position: relative; /* Positioning for dropdown */
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    color: teal; /* Title font size */
+    margin-left: 10px;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between search and user menu */
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 40px; /* Rounded corners */
+    outline: none; /* Remove outline on focus */
+  }
+  
+  .search-button {
+    background: none; /* Transparent background */
+    border: none; /* No border */
+    color: teal; /* Button text color */
+    cursor: pointer; /* Pointer cursor */
+    margin-left: 5px; /* Space between input and button */
+  }
+  
+  .user-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    font-size: 28px; /* Size of user icon */
+    margin-right: 10px; /* Space between icon and button */
+    color: teal;
+  }
+  
+  .logout-button {
+    background-color: #ff4d4d; /* Log out button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 8px 12px; /* Padding for button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .logout-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .navbar-actions {
+      flex-direction: column; /* Stack actions vertically */
+      align-items: flex-start; /* Align to the start */
+      margin-top: 10px; /* Space above actions */
+    }
+  
+    .search-container {
+      margin-right: 0; /* Remove margin for mobile */
+      margin-bottom: 10px; /* Space below search */
+    }
+  }
+  
+/* styles.css */
+.dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background: black;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    font-style:oblique;
+  }
+  
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dashboard-sections {
+    margin-top: 20px;
+  }
+  .sidebar {
+    width: 250px; /* Width of the sidebar */
+    background: linear-gradient(to right, #8499b1, #82bdb0); /* Blue to teal */
+    /* Background color */
+    padding: 20px; /* Padding around the content */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .sidebar h2 {
+    font-size: 24px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: rgb(2, 61, 61); /* Title color */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 15px; /* Space between links */
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Link color */
+    font-size: 18px; /* Font size for links */
+    display: flex; /* Flexbox for icon and text */
+    align-items: center; /* Center align items */
+  }
+  
+  .sidebar ul li a:hover {
+    color:lightblue; /* Color change on hover */
+  }
+  
+  .active-link {
+    font-weight: bold; /* Bold text for active li1nk */
+    color: #007bff; /* Color for active link */
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Full width on mobile */
+      position: absolute; /* Positioning on top */
+      z-index: 1000; /* Ensure it's above other content */
+    }
+  
+    .sidebar ul {
+      flex-direction: column; /* Stack links vertically */
+    }
+  }
+    
+  /* Responsive Sidebar */
+@media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+    }
+  
+    .main-content {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 768px) {
+    table, th, td {
+      display: block;
+      width: 100%;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  }
+  /* User Management Styles */
+.user-management {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .user-management h3 {
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 10px; /* Space above the table */
+  }
+  
+  th, td {
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Left align text */
+    border-bottom: 1px solid #ddd; /* Border between rows */
+  }
+  
+  th {
+    background-color: teal; /* Header background color */
+    color: white; /* Header text color */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d; /* Red background for delete button */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 6px 12px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+  }
+  
+  .error-message {
+    color: #ff4d4d; /* Red color for error messages */
+    margin-top: 10px; /* Space above error messages */
+  }
+  
