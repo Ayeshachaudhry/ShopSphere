@@ -1,8 +1,8 @@
-import { Chart, CategoryScale, LinearScale, BarElement } from 'chart.js';
+import { Chart, CategoryScale, LinearScale, BarElement, BarController } from 'chart.js';
 import { useEffect, useRef } from 'react';
 
-// Register the scale and any other components you use in the chart
-Chart.register(CategoryScale, LinearScale, BarElement);
+// Register the scales, elements, and controllers you use in the chart
+Chart.register(CategoryScale, LinearScale, BarElement, BarController);
 
 const MyChartComponent = () => {
   const chartRef = useRef(null);
