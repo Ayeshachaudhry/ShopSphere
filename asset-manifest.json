@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ShopSphere/static/css/main.1b9ff7fb.css",
+    "main.js": "/ShopSphere/static/js/main.701b64bc.js",
+    "static/js/453.ab163623.chunk.js": "/ShopSphere/static/js/453.ab163623.chunk.js",
+    "index.html": "/ShopSphere/index.html",
+    "main.1b9ff7fb.css.map": "/ShopSphere/static/css/main.1b9ff7fb.css.map",
+    "main.701b64bc.js.map": "/ShopSphere/static/js/main.701b64bc.js.map",
+    "453.ab163623.chunk.js.map": "/ShopSphere/static/js/453.ab163623.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b9ff7fb.css",
+    "static/js/main.701b64bc.js"
+  ]
+}
