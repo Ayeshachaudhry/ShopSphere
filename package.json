@@ -2,7 +2,7 @@
   "name": "ecommerce-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ayeshachaudhry.github.io/ecomerce-dashboard/",
+  "homepage": "https://ayeshachaudhry.github.io/TradeVista/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
